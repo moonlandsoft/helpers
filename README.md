@@ -1,6 +1,6 @@
 Helpers
 =======
-Helper for all widgets by 3ch3r46
+Helper for all widgets
 
 Installation
 ------------
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist 3ch3r46/helpers "*"
+php composer.phar require --prefer-dist moonlandsoft/helpers "*"
 ```
 
 or add
 
 ```
-"3ch3r46/helpers": "*"
+"moonlandsoft/helpers": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,4 +28,5 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \a3ch3r46\helpers\AutoloadExample::widget(); ?>```
+<?= \moonland\helpers\JSON::encode(); ?>
+```
