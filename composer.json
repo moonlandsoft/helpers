@@ -1,0 +1,21 @@
+{
+    "name": "moonlandsoft/helpers",
+    "description": "Helper for all widgets",
+    "type": "library",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moh Khoirul Anam",
+            "email": "moh.khoirul.anaam@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "moonland\\helpers\\": ""
+        }
+    }
+}
